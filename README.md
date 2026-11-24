@@ -5,6 +5,8 @@ Kein Framework, kein Build-Schritt, keine Cookies, kein Tracking und keine exter
 
 ```
 site/            Die Webseite (index.html, impressum.html, datenschutz.html, styles.css, script.js)
+site/app-ads.txt App-Werbung: Damit prüft AdMob, dass die Apps zu dieser Domain gehören
+site/apps/       Seiten zu den einzelnen Apps, z. B. apps/lumina-bubbles/datenschutz.html
 Dockerfile       nginx-Image, lauscht auf Port 8000
 nginx.conf       Sicherheits-Header und Caching
 ```
